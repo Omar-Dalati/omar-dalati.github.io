@@ -10,18 +10,19 @@ body{
 section{
 	border: 10px lightgray;
 	height: 96vh;
-	display: flex;
+    display: flex;
 	align-items:center;
 	justify-content: center;
 
 }
 
+
 .container{
-	height: 30vh;
-	display: flex;
-	align-items:center;
+	height: 20vh;
 }
+
 
 h1{
 	color: solid black;
 }
+
