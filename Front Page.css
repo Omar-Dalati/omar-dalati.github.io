@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title></title>
-
-<style type="text/css"> 
-
 body{
 	font-family: sans-serif;
+	  background-color: lightgray;
 }
 
 section{
@@ -29,17 +23,3 @@ section{
 	align-items:center;
 	justify-content: center;
 }
-
-</style>
-</head>
-
-<body>
-	
-<section>
-	<div class="container">
-		<h1>Assessment 1: My Profile</h1>
-	</div>
-</section>
-
-</body>
-</html>
