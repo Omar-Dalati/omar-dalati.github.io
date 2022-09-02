@@ -1,10 +1,16 @@
 body{
-	font-family: sans-serif;
-	  background-color: lightgray;
+  
+  font-family: sans-serif;
+  background-image: url("sky.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+p{
+	font-family: sans-serif;
+}
 section{
-	border: 10px solid black;
+	border: 10px lightgray;
 	height: 96vh;
 	display: flex;
 	align-items:center;
@@ -12,14 +18,7 @@ section{
 
 }
 
-.container{
-	border: 10px solid black;
-	max-width: 700px;
-	width: 100%;
-	margin auto;
 
-	height: 30vh;
-	display: flex;
-	align-items:center;
-	justify-content: center;
+h1{
+	color: solid black;
 }
