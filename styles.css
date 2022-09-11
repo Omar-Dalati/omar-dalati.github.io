@@ -4,7 +4,7 @@
 /*Image reference above*/
 
 body {
-	font-family: monospace;
+	font-family: sans-serif;
 	background-image: url("sky.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -19,7 +19,7 @@ section {
 	justify-content: center;
 
 }
-
+/* Text allignment only for home.  */
 .container {
 	height: 15vh;
 	text-align: center;
@@ -29,31 +29,33 @@ section {
 * {
 	box-sizing: border-box;
 }
-
+/* Text allignment for all pages except home.  */ 
 .container1 {
 	height: 90vh;
 	text-align: center;
 	width: 1100px;
 }
-
+/* Image aligment for personal profile */ 
 .row::after {
 	content: "";
 	clear: both;
 	display: table;
 }
-
+/* Image aligment for personal profile */ 
 .column {
 	float: left;
 	width: 35%;
-
+	/* Padding inbetween images */
 	padding: 5px;
 }
 
+/* Header 1 changes to colour and underline all H1 only */
 h1 {
 	color: solid black;
+	text-decoration: underline;
 }
 
-
+/* Alignment for text in centre */
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -69,7 +71,7 @@ li {
 	text-align: center;
 	font-size: large;
 }
-
+/* font size for paragraphs */
 p {
 	font-size: large;
 }
