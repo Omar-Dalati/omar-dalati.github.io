@@ -3,19 +3,19 @@
 /*https://www.freepik.com/free-photo/cloud-sky-twilight-times_3817728.htm#query=sky&position=1&from_view=keyword */
 /*Image reference above*/
 
-body{
-  font-family: monospace;
-  background-image: url("sky.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+body {
+	font-family: monospace;
+	background-image: url("sky.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 /* Centered Main Text */
 section {
 	border: 10px lightgray;
 	height: 96vh;
-    display: flex;
-	align-items:center;
+	display: flex;
+	align-items: center;
 	justify-content: center;
 
 }
@@ -24,18 +24,34 @@ section {
 	height: 15vh;
 	text-align: center;
 	width: 700px;
-    }
+}
+
+* {
+	box-sizing: border-box;
+}
 
 .container1 {
-		height: 90vh;
-		text-align: center;
-		width: 1100px;
-		}
-	
+	height: 90vh;
+	text-align: center;
+	width: 1100px;
+}
 
-h1  {
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.column {
+	float: left;
+	width: 35%;
+
+	padding: 5px;
+}
+
+h1 {
 	color: solid black;
-    }
+}
 
 
 ul {
@@ -43,16 +59,17 @@ ul {
 	margin: 0;
 	padding: 0;
 	font-family: monospace;
-	text-align: center;	
-    }
-  
+	text-align: center;
+}
+
 /* Index Menu*/
 li {
 	display: inline;
 	font-family: monospace;
 	text-align: center;
 	font-size: large;
-    }
+}
+
 p {
 	font-size: large;
-    }
+}
