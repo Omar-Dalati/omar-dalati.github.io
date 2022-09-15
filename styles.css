@@ -64,14 +64,14 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	font-family: monospace;
+	font-family: sans-serif;
 	text-align: center;
 }
 
 /* Index Menu*/
 li {
 	display: inline;
-	font-family: monospace;
+	font-family: sans-serif;
 	text-align: center;
 	font-size: large;
 }
