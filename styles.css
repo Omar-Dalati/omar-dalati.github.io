@@ -1,13 +1,17 @@
-/*Background Image + Font  */
+/*	Website Created in resoultion 1920 x 1080
 
-/*https://www.freepik.com/free-photo/cloud-sky-twilight-times_3817728.htm#query=sky&position=1&from_view=keyword */
-/*Image reference above*/
+https://www.freepik.com/free-photo/cloud-sky-twilight-times_3817728.htm#query=sky&position=1&from_view=keyword 
+Background image reference link provided
 
+ Background Image + Font */
 body {
 	font-family: sans-serif;
 	background-image: url("sky.jpg");
 	background-repeat: no-repeat;
+
+	background-size: auto;
 	background-attachment: fixed;
+	height: 100%;
 }
 
 /* Centered Main Text */
